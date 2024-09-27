@@ -1,0 +1,30 @@
+const routes = {
+  admin: [
+    'country',
+    'state',
+    'city',
+    'change-password',
+    'admin',
+    'admin-role',
+    'company',
+    'user-group',
+    'users',
+    'roles',
+    'dynamic-forms',
+    'domain',
+    'subscription',
+    'phishing-template',
+    'landing-page',
+    'notification-template',
+    'policy',
+    'my-category',
+    'course',
+    'content',
+    'assessment',
+    'survey',
+    'blog',
+  ],
+  public: ['login', 'forgot-password', 'set-password', 'registration', 'rest'],
+};
+
+export default routes;
